@@ -1,8 +1,8 @@
 {
-  "name": "results",
+  "name": "resultts",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "build/index.js",
   "scripts": {
     "build": "tsc",
     "lint": "eslint 'src/**/*.{js,ts,tsx}'",
@@ -10,9 +10,15 @@
     "clean": "rm -rf build",
     "test": "jest"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "result",
+    "rust",
+    "functional"
+  ],
+  "homepage": "https://github.com/thxi/resultts#readme",
+  "repository": "https://github.com/thxi/resultts",
+  "author": "me :)",
+  "license": "MIT",
   "devDependencies": {
     "@types/jest": "^26.0.10",
     "@types/node": "^14.6.0",
