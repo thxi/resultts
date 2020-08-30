@@ -15,5 +15,6 @@ Typescript does not have a native `Result` type
 
 # Features:
 
+- fully documented, [documentation](https://thxi.github.io/resultts/) is hosted using github pages
 - fully tested / _100%_ code coverage
 - has [rust Result](https://doc.rust-lang.org/stable/std/result/enum.Result.html#method.map) api
