@@ -1,5 +1,5 @@
 {
-  "name": "resultts",
+  "name": "@ixl/result",
   "version": "1.0.0",
   "description": "A result type for typescript and javascript",
   "main": "build/index.js",
