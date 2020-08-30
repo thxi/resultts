@@ -1,5 +1,13 @@
+/**
+ * Class {@link Err} implements the {@link Result} interface
+ * @packageDocumentation
+ */
+
 import { Result } from './Result';
 
+/**
+ * Class {@link Err} implements the {@link Result} interface
+ */
 export class Err<T, E> implements Result<T, E> {
   private error: E;
 

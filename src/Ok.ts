@@ -1,5 +1,13 @@
+/**
+ * Class {@link Ok} implements the {@link Result} interface
+ * @packageDocumentation
+ */
+
 import { Result } from './Result';
 
+/**
+ * Class {@link Ok} implements the {@link Result} interface
+ */
 export class Ok<T, E> implements Result<T, E> {
   private value: T;
 
